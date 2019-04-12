@@ -243,5 +243,7 @@ export const messages = {
     'No default org is set. Run "SFDX: Create a Default Scratch Org" or "SFDX: Authorize an Org" to set one.',
   error_no_default_devhubusername:
     'No default Dev Hub is set. Run "SFDX: Authorize a Dev Hub" to set one.',
-  custom_output_directory: 'Choose a Custom Directory'
+  custom_output_directory: 'Choose a Custom Directory',
+  warning_using_global_username:
+    'No default username found in the local project config; using the global default username. Run "SFDX: Authorize an Org" to set the username for the local project config.'
 };
